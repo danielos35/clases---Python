@@ -27,3 +27,31 @@ def porPosicionYNombre(a,b,c):
     print("a= ",a,"b= ",b,"c= ",c);
     
 porPosicionYNombre("HOLA C", b="testB", c="testC")
+
+#Valores por defecto 
+    #En Python podemos configurar valores por defecto dentro de la declaración de la función
+    
+def miNombre(name="Daniel", lastName="Márquez"): 
+    print(name, lastName)
+
+miNombre()
+miNombre("Sandra", "Alvarez")
+
+
+#Return 
+    #El retorno al igual que en JS, permite terminar la función en cierto punto en especifico de la misma
+    
+def retorno():
+    nombre = 'Daniel retorno';
+    return nombre
+
+# En caso de pasar la función sin los parentesis no imprimirá la dirección en memoria
+print(retorno)
+
+#Así la veriamos de manera natural
+print(retorno())
+
+
+#None es una palabra reservada en Python, equivalente a null en JS
+variableNone = None; 
+
